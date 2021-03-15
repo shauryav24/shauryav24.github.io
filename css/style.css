@@ -100,7 +100,7 @@ div h2 {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -399,18 +399,6 @@ body {
 }
 
 
-.content {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    overflow: hidden;
-    height: 450px;
-    width: 300px;
-    
-}
-
-.content:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
-}
 
 
 

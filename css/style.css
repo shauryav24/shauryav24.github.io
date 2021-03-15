@@ -100,7 +100,7 @@ div h2 {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;

@@ -84,7 +84,7 @@ div h2 {
 }
 .work:after{
     content: "";
-    background-image: url(images\table1.jpg);
+    background-image: url(table1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
@@ -118,7 +118,7 @@ div h2 {
 .education::after {
     content: "";
     padding-bottom: 20px;
-    background-image: url(images\studyf.jpg);
+    background-image: url(studyf.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shaurya Verma</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="webscript.js" ></script>
+        
+    </head>
+
+    <body>
+
+        <header>
+
+            <!--Navigation Bar-->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+
+                <a class="navbar-brand" href="index.html"><h2>Shaurya Verma</h2></a>
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+      
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="#extra">Extra Curriculars</a> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a> 
+                        </li>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div class="p-5 text-center ">
+                <img src="dp.jpg" align="text-center"><br>
+                <h1 class="mb-3">Shaurya Verma</h1>
+                <h4 class="mb-3">Web Developer | Data Science | Consultancy</h4>
+                <a class="btn btn-info" href="mailto:shauryav24@gmail.com">Email</a>
+                <a class="btn btn-info" href="https://www.linkedin.com/in/shauryav24">LinkedIn</a>
+                <a class="btn btn-info" href="https://www.twitter.com/theshauryaverma">Twitter</a>
+                
+            </div>  
+
+            <button onclick="myFunction()">Toggle dark mode</button>
+
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
+            
+
+            <div class="aboutme" id="aboutme">
+                <h2>About Me</h2><br>
+                <div class="container">
+                    <div class="well">
+                        I am pre final year undergrad pursuing B.E.(Hons.) in Electrical & Electronics Engineering from BITS Pilani, Goa Campus. I am extremely interested in Front End Development and Data Science. Besides this, I have proficient skills in Management Consultancy. I am a professional bhangra dancer and I like to play chess in my free time.
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="work" id="work">
+                <br>
+                <h2 ID="workexp">Work Experience</h2><br>
+                <div class="flex-container">
+                    <div>
+                        <div class="card">
+                            <img src="kyc.png" alt="KYC Hub">
+                            <div class="container">
+                                <h4><b>Product Management Intern</b></h4>
+                                <p><a href="https://www.kychub.com/">KYC Hub, London</a></p>
+                                <p><i>February 2021 - Present</i></p>
+                                <p id="wtext">Product Management Intern (Remote) at KYC Hub, London. Responsible for sourcing and scraping corporate data for the KYC Hub Product</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="lc.png" alt="Loyalty Communication">
+                            <div class="container">
+                                <h4><b>Technical Support Intern</b></h4>
+                                <p><a href="https://www.mainbrainer.com/">Loyalty Communication, Mohali, India</a></p>
+                                <p><i>January 2021 - Present</i></p>
+                                <p id="wtext">Providing technical support to the Loyalty Communication Product website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="180dc.jpg" alt="180DC, BITS Goa">
+                            <div class="container">
+                                <h4><b>Senior Management Consultant</b></h4>
+                                <p><a href="https://180dc.org/branch/bits-goa/">180 Degrees Consulting, BITS Goa</a></p>
+                                <p><i>January 2021 - Present</i></p>
+                                <p id="wtext">Providing consultation to NPOs and other business enterprises for market entry and profitability in the market.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="pgf.jpg" alt="POWERGRID">
+                            <div class="container">
+                                <h4><b>Summer Intern (Research)</b></h4>
+                                <p><a href="https://www.powergridindia.com/">POWERGRID Corporation of India</a></p>
+                                <p><i>May 2020 - July 2020</i></p>
+                                <p>Project Topic: <i>Smart Grid in Indian Context & Its Benefits</i></i></p>
+                                <p id="wtext">Learning Objectives: GIS, SCADA, ADMS, Smart City Concept</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="education" id="education">
+                <br>
+                <h2 id="edu" style="color: white;">Education</h2>
+                <br>
+
+                <div class="timeline">
+
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2020 - Present</h2>
+                            <b><a href="https://onlinedegree.iitm.ac.in/">B.Sc. Data Science & Programming</a></b><br>
+                            <b><a href="https://www.iitm.ac.in/">IIT Madras, Chennai</a></b>
+                            <p>Online degree specialized in data science and programming.</p>
+                        </div>
+                    </div>
+
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2018 - Present</h2>
+                            <b><a href="https://universe.bits-pilani.ac.in/Goa/Electrical/EEE">B.E.(Hons.) Electrical & Electronics Engineering</a></b><br>
+                            <b><a href="https://www.bits-pilani.ac.in/goa/">BITS Pilani K.K. Birla Goa Campus</a></b><br>
+                            Key Courses: PS, CP, DM, DD, MuP, MuE<br>
+                            <u><i>CGPA: 6.00</i></u>
+                        </div>
+                    </div>
+
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2015 - 2017</h2>
+                            <b>CBSE Senior Secondary (10+2)</b><br>
+                            <b><a href="http://sggs35publicschool.in">SGGSPS, Chandigarh</a></b><br>
+                            Physics - 100/100, Mathematics - 95/100, Chemistry - 94/100 <br>
+                            <u><i>Percentage: 92.8%</i></u>
+                      </div>
+                    </div>
+
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2004 - 2015</h2>
+                            <b>High School</b><br>
+                            <b><a href="https://www.stjohnschandigarh.com">St. John's High School, Chandigarh</a></b><br>
+                            <u>CGPA: 10</u>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+
+            <div class="projects" id="projects">
+                <h2>Projects</h2>
+            </div>
+            
+
+            <div class="skills" id="skills">
+                <h2>Skills</h2><br>
+            </div>
+            
+
+            <div class="extra" id="extra">
+                <br>
+                <h2>Extra Curriculars </h2>
+
+                <button class="collapsible">EEE Department Secretary (2019-2020)</button>
+                <div class="content">
+                    <p>Student Representative of Electrical & Electronics Department, BITS Goa reepresenting a batch of 600+ students.</p>
+                </div>
+
+                <button class="collapsible">Associate, Alumni Relations Cell (2018-2020)</button>
+                <div class="content">
+                    <p>Establishing the link between the college students and alumni. Innovating the Alumni Mentorship Program.</p>
+                </div>
+
+                
+                <button class="collapsible">AUGSD Core Member, BITS Goa (2018-2020)</button>
+                <div class="content">
+                    <p>Part of the Academic Registration & Undergraduate Studies Division of the college. Reponsible for timetable management and student course registration process.</p>
+                </div>
+
+                
+                <button class="collapsible">Event Manager WAVES, BITS Goa (2018-2020)</button>
+                <div class="content">
+                    <p>Memberof the organizing and operation committee of BITS Goa Annual Cultural Fest - WAVES.</p>
+                </div>
+
+                
+                <button class="collapsible">Personal Development Mentor (2019-2020)</button>
+                <div class="content">
+                    <p>Responsible for mentoring a group of 6+ students of the fresher year</p>
+                </div>
+
+                
+                <button class="collapsible">Department of Backstage & Infrastructure Management</button>
+                <div class="content">
+                    <p>Member of event production and infrastructure management team of the college.</p>
+                </div>
+                
+                <script>
+                    var coll = document.getElementsByClassName("collapsible");
+                    var i;
+
+                    for (i=0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.maxHeight) {
+                                content.style.maxHeight = null;
+                            } else {
+                                content.style.maxHeight = content.scrollHeight + "px"
+                            }
+                        });
+                    }
+                </script>
+                
+            </div>
+            
+
+            <div class="contact" id="contact">
+                <h2>Contact</h2>
+            </div>
+            
+
+        </main>
+
+        <footer class="container-fluid background-dark">
+
+            <div class="row padding">
+              
+            </div>
+            <div class="padding-bottom" align="center">Made with ❤️ by Shaurya Verma</div>
+      
+        </footer>>
+
+    </body>
+</html>

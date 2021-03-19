@@ -72,9 +72,7 @@ div h2 {
     text-align: center;
 }
 
-.aboutme {
-    
-}
+
 
 .work {
     position: relative;
@@ -134,10 +132,6 @@ div h2 {
 
 
 
-
-.extra {
-    
-}
 
 .collapsible {
     background-color: #777;
@@ -448,7 +442,13 @@ body {
     
 }
 
+.skills  {
+    background-color: white;
+}
 
+.contact {
+    background-color: white;
+}
 
 
 

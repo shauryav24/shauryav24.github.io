@@ -72,9 +72,7 @@ div h2 {
     text-align: center;
 }
 
-.aboutme {
-    
-}
+
 
 .work {
     position: relative;
@@ -133,17 +131,7 @@ div h2 {
 
 
 
-.projects {
-    background-color: hotpink;
-}
 
-.skills {
-    background-color: khaki;
-}
-
-.extra {
-    
-}
 
 .collapsible {
     background-color: #777;
@@ -181,9 +169,7 @@ div h2 {
     background-color: #f1f1f1;
 }
 
-.contact {
-    background-color: lightskyblue;
-}
+
 
 .footer {
     text-align: center;
@@ -398,6 +384,71 @@ body {
     text-align: center;
 }
 
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}
+  
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+.flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateX(180deg);
+}
+
+.flip-box {
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-right: 47px;
+}
+
+.flip-box-front{
+    padding-top: 125px;
+    padding-bottom: 75px;
+}
+
+.flip-box-back{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+}
+
+.skills  {
+    background-color: white;
+}
+
+.contact {
+    background-color: white;
+}
 
 
 
